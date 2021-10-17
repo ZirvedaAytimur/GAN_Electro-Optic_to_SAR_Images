@@ -8,8 +8,8 @@ All libraries used can be found in requirements.txt file.
 
 The main.py file is run to test a big picture over the trained models. Here you can test on pix2pix or CycleGAN. The
 image is given as input and is first cropped to 256*256 size images. Afterwards, predictions are made from the
-fragmented images either in the existing 'model_pix2pix.h5' and 'model_cycleGAN.h5' models or in the new model to be
-given. These predicted images are combined back to create an image in fake Sentinel-1 format.
+fragmented images either in the existing 'model_pix2pix.h5' and 'model_CycleGAN_s1_to_s2.h5' models or in the new model to be
+given. You can download these models [here](https://drive.google.com/drive/folders/1JIq02r6T1vRGQA2T-Twz_LI5kD7eMAXY?usp=sharing). These predicted images are combined back to create an image in fake Sentinel-1 format.
 
 ### Used train dataset for pretrained model
 
