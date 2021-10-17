@@ -18,7 +18,6 @@ def parsing_data(path, data_type, images):
 
 
 def selecting_images(i, path, percentage):
-    # test and validation data is 10% for each
     data_number = int(i * percentage / 100)
     # find all filenames in folder
     filenames = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
